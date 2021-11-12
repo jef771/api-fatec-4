@@ -5,11 +5,11 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 
 ## Tecnologias
 [Spring Boot](https://spring.io/projects/spring-boot)
--Devido ao grande número de materiais disponíveis na internet, adequação ao padrão de projeto MVC e conhecimento prévio o framework Spring Boot foi decisão unânime do grupo.
+- Devido ao grande número de materiais disponíveis na internet, adequação ao padrão de projeto MVC e conhecimento prévio o framework Spring Boot foi decisão unânime do grupo.
   
 [angular](https://angular.io/cli)
--Foi escolhido também pela grande quantidade de materiais de estudo na internet, fácil integração com o framework Spring Boot e conhecimento prévio. 
+- Foi escolhido também pela grande quantidade de materiais de estudo na internet, fácil integração com o framework Spring Boot e conhecimento prévio. 
   
 [Oracle](https://www.oracle.com/br/database/)
--Escolha natural visto que o cliente é a própria Oracle.
+- Escolha natural visto que o cliente é a própria Oracle.
 
