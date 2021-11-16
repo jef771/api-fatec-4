@@ -144,3 +144,15 @@ ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_EVT_ID
 	  REFERENCES EVENTOS (EVT_ID);	  
 ```
 - DDL criado para o banco do API.
+<br>
+<hr>
+#### Controller
+<img src="img/controller1.PNG">
+<img src="img/controller2.PNG">
+<img src="img/controller3.PNG">
+- Exemplo de um controller da aplicação com os clássicos <i>GET/POST/PUT/DELETE</i>. No caso dessa aplicação estou utilizando <i>ResponseEntity</i> para mandar e receber requisições HTML do <i>frontend</i>. Também é possível notar o uso de herança ExceptionHandling, essa classe faz possível que erros que ocorram nessa comunicação entre <i>frontend</i> e <i>backend</i> sejam identificados e apresentados para o usuário.
+<hr>
+<img src="img/controller4.PNG">
+<img src="img/controller5.PNG">
+<img src="img/controller6.PNG">
+- Podemos ver os métodos que controlam as <i>exceptions</i>. Quando elas ocorrem o <i>controller</i> busca dentro dessa herança um método que utiliza a <i>exception</i> que foi lançada, sendo possível controlar a mensagem que o usuário vai conseguir ler. Essa mesma herança, pela forma que foi construída, pode ser utilizada em todos os controllers.
