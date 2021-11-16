@@ -17,11 +17,11 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 ## Contribuições
 Fiquei encarregado de todo o back end do projeto e, mais tarde, da criação do banco de dados. A arquitetura que eu escolhi foi a MVC, pois, apesar de ser uma arquitetura mais antiga, ainda é muito utilizada no mercado de trabalho - pois funciona! -, desso modo trazendo um aprendizado efetivo para o meu desenvolvimento, adequa-se muito bem às soluções propostas para o problema e requer menos *resources* da parte do estudante - em uma arquitetura de micro serviços por exemplo seria difícil encontrar uma maneira de hospedar pelos menos 5 end-points sem pagar nada - pois, sendo estruturada de maneira monolitica, requer apenas uma hospedagem.
 
-##### Arquitetura MVC
+### Arquitetura MVC
 <img src="img/MVC.PNG">
 - Uma visão geral da arquitetura do programa. Já que na parte **View** foi utilizado um framework de frontend (Angular) o backend ficou encarregado da parte Model e Controller e outros pacotes interessantes para o projeto como exception para um melhor controle do fluxo do programa e constant para deixar o código mais legível.
 
-###### Model
+#### Model
 <img src="img/model1.PNG">
 <img src="img/model2.PNG">
 <img src="img/model3.PNG">
@@ -48,7 +48,8 @@ Fiquei encarregado de todo o back end do projeto e, mais tarde, da criação do 
 <img src="img/exceptions1.PNG">
 - Todas as exceções criadas até o momento para o programa. Um ótimo jeito para controlar regras de negócio.
 <hr>
-###### DDL
+
+####DDL
 
 ```
 CREATE TABLE USUARIOS (
