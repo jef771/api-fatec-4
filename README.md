@@ -1,4 +1,6 @@
 # Endurance (API - Fatec sjc)
+<p align="center"> <img src="https://github.com/MaXximiles/API-4SEM/blob/main/Documenta%C3%A7%C3%A3o/logo%20com%20nome.png"> </p>
+<p align="center"> <a href="https://enduranceweb.herokuapp.com/login"> <img src= "https://img.shields.io/badge/%F0%9F%9A%80-ACESSAR-blue"></a> </p>
 
 ## Descrição
 O sistema Endurance tem como objetivo principal o gerenciamento de eventos, possibilitando a criação e o controle aos colaboradores da empresa. O público externo poderá ser cadastrado no sistema para participar dos eventos, seguindo as restrições sanitárias devido a pandemia e a validação do comprovante de vacinação contra SARS-CoV-2, tanto para dose única quanto para demais doses. Os usuários cadastrados serão notificados sobre novos eventos e atualizações via e-mail.
