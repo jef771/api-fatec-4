@@ -22,17 +22,22 @@ Fiquei encarregado de todo o back end do projeto e, mais tarde, da criação do 
 - Uma visão geral da arquitetura do programa. Já que na parte **View** foi utilizado um framework de frontend (Angular) o backend ficou encarregado da parte Model e Controller e outros pacotes interessantes para o projeto como exception para um melhor controle do fluxo do programa e constant para deixar o código mais legível.
 
 ###### Model
-imagem de uma entidade
+<img src="img/model1.PNG">
+<img src="img/model2.PNG">
+<img src="img/model3.PNG">
 - Um exemplo de uma das 3 entidades do programa, podemos ver a utilização da biblioteca Lombok para simplificar e manter o código mais legível eliminando código **boilerplate** (código recorrente como getters e setters), também podemos observar a utilização do framework Hibernate sendo utilizado no seu modelo JPA para deixar mais simples a comunicação entre o banco de dados e o Model. E na terceira imagem temos um exemplo do mapeamento das diferentes entidades, OneToOne (1-1) no caso referindo-se a um evento sendo criado por um usuário e ManyToMany (N-N) sendo uma lista de participantes para esse evento. As outras 2 entidades seguem esse mesmo modelo de organização.
 
-imagem de um interface service
+<img src="img/service1.PNG">
 - Um exemplo de uma interface de service, segui um modelo muito utilizado no mercado de trabalho que é dividir a camada service, onde fica a lógica e regras de negócio do programa, entre interface e implementação para uma melhor organização e reaproveitamento do código. A interface possui a lógica geral que o programa deve seguir.
 
-imagem de um service impl
+<img src="img/serviceImpl1.PNG">
+<img src="img/serviceImpl2.PNG">
+<img src="img/serviceImpl3.PNG">
 - Um exemplo de uma implementação da service interface (serviceImpl), é nessa camada que eu coloquei as regras de negócio como horário de funcionamento da casa Oracle, sugestão de horário, a possibilidade do usuário Oracle (colaborador da empresa) poder cadastrar um evento e o envio de emails para os usuários.
 
-imagem do service impl do email
+<img src="img/serviceImpl4.PNG">
 - Service criado para o envio de emails.
 
-imagem vaccine image
+<img src="img/vaccine1.PNG">
+<img src="img/vaccine2.PNG">
 - Um dos principais requisitos do sistema era o upload da foto da carteira de vacinação para SARSCoV2. Nas imagens pode ser notado que foi uma implementação simples que não foi preciso utilizar nenhuma biblioteca externa.
