@@ -40,4 +40,4 @@ Fiquei encarregado de todo o back end do projeto e, mais tarde, da criação do 
 <hr>
 <img src="img/vaccine1.PNG">
 <img src="img/vaccine2.PNG">
-- Um dos principais requisitos do sistema era o upload da foto da carteira de vacinação para SARSCoV2. Nas imagens pode ser notado que foi uma implementação simples que não foi preciso utilizar nenhuma biblioteca externa.
+- Um dos principais requisitos do sistema era o upload da foto da carteira de vacinação para SARSCoV2. Nas imagens pode ser notado que foi uma implementação simples e que não foi preciso utilizar nenhuma biblioteca externa.
