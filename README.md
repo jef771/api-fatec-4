@@ -157,3 +157,14 @@ ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_EVT_ID
 <img src="img/controller5.PNG">
 <img src="img/controller6.PNG">
 - Podemos ver os métodos que controlam as <i>exceptions</i>. Quando elas ocorrem o <i>controller</i> busca dentro dessa herança um método que utiliza a <i>exception</i> que foi lançada, sendo possível controlar a mensagem que o usuário vai conseguir ler. Essa mesma herança, pela forma que foi construída, pode ser utilizada em todos os controllers.
+<hr>
+<br>
+### Aprendizado
+- <b>JPA</b>
+- Uso de constantes para deixar o código mais legível
+- <b>Spring security</b>
+- Banco de Dados em Cloud
+- Uso de bibliotecas externas como <b>OAuth 2.0</b> e <b>StringUtils</b>
+- Implementação de exceptions
+- Comunicação entre <i>frontend</i> e <i>backend</i> por JSON
+- Envio de emails
