@@ -50,6 +50,7 @@ Fiquei encarregado de todo o back end do projeto e, mais tarde, da criação do 
 <hr>
 ###### DDL
 ```
+
 ------------------------------------------
 -- USUARIOS
 ------------------------------------------
@@ -155,5 +156,6 @@ ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_FRN_ID
 
 ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_EVT_ID FOREIGN KEY (EFM_EVT_ID)
 	  REFERENCES EVENTOS (EVT_ID);
+	  
 ```
 - DDL criado para o banco do API.
