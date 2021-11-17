@@ -166,9 +166,15 @@ ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_EVT_ID
 - <b>JPA</b>
 	- Extremamente utilizado no mercado de trabalho Java, eu já conhecia algumas anotações e parametros mas me aprofundei muito mais nesse projeto
 - Uso de constantes para deixar o código mais legível
+	- Como os demais integrantes do grupo precisam ler meu código para fazer a comunicação com o <i>frontend</i> decidi dar mais atenção a essa parte e acabou sendo de grande ajuda até para mim, por exemplo: foi muito mais fácil de fazer alterações
 - <b>Spring security</b>
+	- Consegui fazer uma boa introdução a essa biblioteca muito utilizada no mercado de trabalho
 - Banco de Dados em Cloud
+	- Foi um desafio sair da zona de conforto de só baixar a instalar um banco de dados local mas valeu muito a pena
 - Uso de bibliotecas externas como <b>OAuth 2.0</b> e <b>StringUtils</b>
 - Implementação de exceptions
+	- Algo extremamente importante para tornar-se um bom programador
 - Comunicação entre <i>frontend</i> e <i>backend</i> por JSON
+	- No começo do projeto participei muito do <i>frontend</i> e foi muito legal aprender sobre requisições HTML e JSON
 - Envio de emails
+	- Finalmente descobri como funciona!
