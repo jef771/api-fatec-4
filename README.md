@@ -164,6 +164,7 @@ ALTER TABLE EVENTO_FORNECEDOR_MAP ADD CONSTRAINT FK_EVENTO_FORNECEDOR_MAP_EVT_ID
 ### Aprendizado
 
 - <b>JPA</b>
+	- Extremamente utilizado no mercado de trabalho Java, eu já conhecia algumas anotações e parametros mas me aprofundei muito mais nesse projeto
 - Uso de constantes para deixar o código mais legível
 - <b>Spring security</b>
 - Banco de Dados em Cloud
