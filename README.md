@@ -16,7 +16,7 @@ O sistema Endurance tem como objetivo principal o gerenciamento de eventos, poss
 
 
 ## Contribuições
-Fiquei encarregado de todo o <i>backend</i> do projeto e, mais tarde, da criação do banco de dados. A arquitetura que eu escolhi foi a MVC, pois, apesar de ser uma arquitetura mais antiga, ainda é muito utilizada no mercado de trabalho - pois funciona! -, desso modo trazendo um aprendizado efetivo para o meu desenvolvimento, adequa-se muito bem às soluções propostas para o problema e requer menos <i>resources</i> da parte do estudante - em uma arquitetura de micro serviços por exemplo seria difícil encontrar uma maneira de hospedar pelos menos 5 <i>end-points</i> sem pagar nada - pois, sendo estruturada de maneira monolitica, requer apenas uma hospedagem.
+Fiquei encarregado de todo o <i>backend</i> do projeto e, mais tarde, da criação do banco de dados. A arquitetura que eu escolhi foi a MVC, pois, apesar de ser uma arquitetura mais antiga, ainda é muito utilizada no mercado de trabalho - pois funciona! -, desso modo trazendo um aprendizado efetivo para o meu desenvolvimento, adequa-se muito bem às soluções propostas para o problema e requer menos <i>resources</i> da parte do estudante - em uma arquitetura de micro serviços por exemplo seria difícil encontrar uma maneira de hospedar pelos menos 5 <i>end-points</i> sem pagar nada - pois, sendo estruturada de maneira monolitica, requer apenas uma hospedagem. Também optei pelo padrão <i>facade</i> ou seja, o cliente faz requisições (em JSON) para o programa portanto o <b>springboot</b> também foi o mais adequado.
 
 ### Arquitetura MVC
 <img src="img/MVC.PNG">
@@ -28,8 +28,9 @@ Fiquei encarregado de todo o <i>backend</i> do projeto e, mais tarde, da criaç�
 <img src="img/model3.PNG">
 - Um exemplo de uma das 3 entidades do programa, podemos ver a utilização da biblioteca <b>Lombok</b> para simplificar e manter o código mais legível eliminando código <i>boilerplate</i> (código recorrente como <i>getters</i> e <i>setters</i>), também podemos observar a utilização do <i>framework</i> <b>Hibernate</b> sendo utilizado no seu modelo <b>JPA</b> para deixar mais simples a comunicação entre o banco de dados e a camada <i>Model</i>. E na imagem 2 e 3 temos um exemplo do mapeamento das diferentes entidades, OneToOne (1-1) no caso referindo-se a um Evento sendo criado por um Usuário e ManyToMany (N-N) sendo uma lista de participantes para esse Evento. As outras 2 entidades seguem esse mesmo modelo de organização.
 <hr>
+#### Model
 <img src="img/service1.PNG">
-- Um exemplo de uma interface da camada <i>service</i>, segui um modelo muito utilizado no mercado de trabalho que é dividir a camada de serviços, onde fica a lógica e regras de negócio do programa, entre interface e implementação para uma melhor organização e reaproveitamento do código. A interface possui a lógica geral que o programa deve seguir.
+- Um exemplo de uma interface da camada <i>service</i>(<i>design pattern proxy</i>), segui um modelo muito utilizado no mercado de trabalho que é dividir a camada de serviços, onde fica a lógica e regras de negócio do programa, entre interface e implementação para uma melhor organização e reaproveitamento do código. A interface possui a lógica geral que o programa deve seguir.
 <hr>
 <img src="img/serviceImpl1.PNG">
 <img src="img/serviceImpl2.PNG">
